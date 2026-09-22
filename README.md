@@ -19,3 +19,29 @@ artificial intelligence, and building practical applications.
 - JavaScript
 - Git
 - GitHub
+## Project Structure
+
+```text
+portfolio/
+│
+├── README.md
+├── index.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── assets/
+│   ├── images/
+│   │   ├── profile/
+│   │   └── projects/
+│   │
+│   ├── icons/
+│   │
+│   └── resume/
+│       └── resume.pdf
+│
+└── projects/
+    └── README.md
