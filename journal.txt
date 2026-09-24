@@ -17,3 +17,31 @@ JavaScript — Interactivity and future dynamic features
 Git & GitHub — Version control and project management
 
 The project was also planned to be developed gradually rather than trying to complete the entire website at once.
+2. Project Architecture & File Organization
+
+A basic project architecture was created to keep the project organized and make it easier to expand later.
+
+The current structure is:
+
+portfolio/
+│
+├── README.md
+├── index.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── assets/
+    ├── images/
+    ├── icons/
+    └── resume/
+
+The main HTML file acts as the entry point for the website. CSS and JavaScript were separated into their own directories instead of placing everything inside index.html.
+
+An assets directory was also planned for resources such as profile images, project screenshots, icons, and the resume. This structure should make the project easier to maintain as more content is added.
+
+A README.md file was also added to document the project, its technologies, structure, development phases, and future improvements.
+
