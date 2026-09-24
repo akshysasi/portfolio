@@ -1,0 +1,19 @@
+Portfolio Development Journal — Day 1
+
+1. Project Planning & Technology Selection
+
+The first step was to define the purpose of the project and decide how the portfolio website would be developed. The goal is to create a personal portfolio website that can showcase my education, technical skills, projects, certifications, resume, and contact information in one place.
+
+For the initial version, I decided to use HTML, CSS, and JavaScript instead of immediately using a framework such as React. This keeps the project simple and allows me to understand the fundamentals of web development while building the website.
+
+The initial technology stack was defined as:
+
+HTML5 — Website structure and content
+
+CSS3 — Styling and layout
+
+JavaScript — Interactivity and future dynamic features
+
+Git & GitHub — Version control and project management
+
+The project was also planned to be developed gradually rather than trying to complete the entire website at once.
