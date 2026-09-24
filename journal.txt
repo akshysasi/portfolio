@@ -45,3 +45,90 @@ An assets directory was also planned for resources such as profile images, proje
 
 A README.md file was also added to document the project, its technologies, structure, development phases, and future improvements.
 
+3. Initial Website Structure & Implementation
+
+The first version of the website structure was implemented using HTML.
+
+The page currently contains the main sections that will eventually form the complete portfolio:
+
+Home — Introduction and basic personal information
+
+About Me — Educational and professional background
+
+Skills — Technical skills and areas of knowledge
+
+Projects — Projects that I have developed or am currently working on
+
+Contact — Contact information and communication links
+
+Footer — Basic copyright information
+
+Two projects were initially included as placeholders:
+
+Big Data Crop Recommendation System
+
+A data-driven project involving soil and environmental information, with technologies such as Python, Apache Spark, Hadoop, and Hive.
+
+DayLog
+
+A personal journaling and productivity application that is being developed separately.
+
+These projects will be expanded later with descriptions, screenshots, technologies used, GitHub repositories, and other relevant information.
+
+4. Initial Design & Future Development
+
+A basic dark-themed visual design was implemented using CSS. The first styling focuses on establishing the overall layout rather than creating the final polished design.
+
+The initial design includes:
+
+Fixed navigation bar
+
+Navigation links to different sections
+
+Dark background
+
+Highlighted accent color
+
+Hero section
+
+Project cards
+
+Skill cards
+
+Basic buttons
+
+Section spacing
+
+Footer
+
+Smooth scrolling between sections
+
+JavaScript was also connected to the website. At this stage, it only contains basic functionality to confirm that the JavaScript file is correctly loaded.
+
+The website is intentionally still simple. The current version provides the foundation on which the final portfolio can be built.
+
+Planned Future Development
+
+The next stages will focus on:
+
+Improving the visual design and typography
+
+Making the website fully responsive for mobile devices
+
+Adding project screenshots and detailed project information
+
+Adding certificates and resume
+
+Adding GitHub and LinkedIn links
+
+Adding animations and interactive elements
+
+Improving the navigation experience
+
+Testing the website across different screen sizes
+
+Deploying the finished portfolio online
+
+Day 1 Summary
+
+The main achievement of the first development session was establishing the complete foundation of the portfolio project. The technology stack, folder structure, README documentation, basic HTML sections, initial CSS styling, and JavaScript setup are now in place. Future development can focus on improving the design and adding real content without having to restructure the project.
