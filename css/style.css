@@ -1,4 +1,6 @@
+/* ============================= */
 /* Reset */
+/* ============================= */
 
 * {
     margin: 0;
@@ -7,7 +9,9 @@
 }
 
 
+/* ============================= */
 /* General */
+/* ============================= */
 
 html {
     scroll-behavior: smooth;
@@ -21,21 +25,25 @@ body {
 }
 
 
+/* ============================= */
 /* Navigation */
+/* ============================= */
 
 header {
     position: fixed;
-    width: 100%;
     top: 0;
+    width: 100%;
 
-    background-color: #0f0f0f;
+    background-color: rgba(15, 15, 15, 0.9);
 
     border-bottom: 1px solid #222;
+
+    backdrop-filter: blur(10px);
 
     z-index: 1000;
 }
 
-nav {
+.navbar {
     max-width: 1100px;
     margin: auto;
 
@@ -48,16 +56,24 @@ nav {
 
 .logo {
     color: #00ffcc;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    text-decoration: none;
 }
 
 .nav-links {
     display: flex;
-    gap: 25px;
+    gap: 30px;
 }
 
 .nav-links a {
     color: white;
+
     text-decoration: none;
+
+    transition: 0.3s;
 }
 
 .nav-links a:hover {
@@ -65,13 +81,16 @@ nav {
 }
 
 
+/* ============================= */
 /* Sections */
+/* ============================= */
 
 section {
     max-width: 1100px;
     min-height: 100vh;
 
     margin: auto;
+
     padding: 120px 20px;
 
     display: flex;
@@ -80,61 +99,150 @@ section {
 }
 
 
+/* ============================= */
 /* Hero */
+/* ============================= */
 
 .hero {
     text-align: center;
     align-items: center;
 }
 
+.hero-content {
+    max-width: 750px;
+}
+
+.hero-intro {
+    color: #00ffcc;
+
+    font-size: 14px;
+
+    letter-spacing: 5px;
+
+    margin-bottom: 15px;
+}
+
 .hero h1 {
-    font-size: 60px;
-    margin: 10px 0;
+    font-size: 70px;
+
+    margin-bottom: 10px;
 }
 
 .hero h2 {
     color: #aaa;
-    margin-bottom: 15px;
+
+    font-size: 30px;
+
+    font-weight: normal;
+
+    margin-bottom: 20px;
 }
 
-.hero p {
+.hero-description {
+    max-width: 650px;
+
+    margin: auto;
+
     color: #aaa;
+
+    font-size: 18px;
+
+    line-height: 1.7;
 }
 
 
-/* Button */
+/* ============================= */
+/* Hero Buttons */
+/* ============================= */
+
+.hero-buttons {
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 15px;
+}
 
 .button {
-    margin-top: 25px;
+    display: inline-block;
 
-    padding: 12px 25px;
+    padding: 13px 25px;
 
     border: 1px solid #00ffcc;
     border-radius: 5px;
 
     color: #00ffcc;
+
     text-decoration: none;
+
+    transition: 0.3s;
 }
 
 .button:hover {
     background-color: #00ffcc;
+
+    color: #0f0f0f;
+}
+
+.button.secondary {
+    border-color: #444;
+
+    color: white;
+}
+
+.button.secondary:hover {
+    background-color: white;
+
     color: #0f0f0f;
 }
 
 
-/* Section headings */
+/* ============================= */
+/* Social Links */
+/* ============================= */
+
+.social-links {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 25px;
+}
+
+.social-links a {
+    color: #777;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #00ffcc;
+}
+
+
+/* ============================= */
+/* Section Headings */
+/* ============================= */
 
 section > h2 {
     font-size: 40px;
+
     margin-bottom: 25px;
 }
 
 
+/* ============================= */
 /* Skills */
+/* ============================= */
 
 .skills-container {
     display: flex;
     flex-wrap: wrap;
+
     gap: 15px;
 }
 
@@ -144,15 +252,19 @@ section > h2 {
     background-color: #181818;
 
     border: 1px solid #333;
+
     border-radius: 5px;
 }
 
 
+/* ============================= */
 /* Projects */
+/* ============================= */
 
 .projects-container {
     display: flex;
     flex-wrap: wrap;
+
     gap: 20px;
 }
 
@@ -164,6 +276,7 @@ section > h2 {
     background-color: #181818;
 
     border: 1px solid #333;
+
     border-radius: 8px;
 }
 
@@ -176,14 +289,18 @@ section > h2 {
 }
 
 
+/* ============================= */
 /* Contact */
+/* ============================= */
 
 #contact a {
     color: #00ffcc;
 }
 
 
+/* ============================= */
 /* Footer */
+/* ============================= */
 
 footer {
     padding: 30px;
