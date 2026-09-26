@@ -153,3 +153,26 @@ Contact
 The portfolio logo was also made clickable, allowing the user to return to the Home section. CSS hover effects were added to the navigation links to provide visual feedback when the user interacts with them.
 
 A semi-transparent background and blur effect were also introduced to make the fixed navigation blend better with the overall dark theme.
+2. Hero Section Implementation
+
+The basic Home section was upgraded into a proper Hero section, which will serve as the first introduction to the portfolio.
+
+The Hero section now contains:
+
+A small introductory text
+
+My name — Akshay K Sasi
+
+My role as an AI & Data Science Student
+
+A short description of my interests
+
+A View Projects button
+
+A Download Resume button
+
+GitHub and LinkedIn placeholders
+
+The section was designed to immediately communicate who I am and what areas I am interested in.
+
+The HTML structure was also improved by introducing classes such as hero, hero-content, hero-intro, and hero-description. This makes the structure easier to style and maintain as the project develops.
