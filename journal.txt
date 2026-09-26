@@ -132,3 +132,24 @@ Deploying the finished portfolio online
 Day 1 Summary
 
 The main achievement of the first development session was establishing the complete foundation of the portfolio project. The technology stack, folder structure, README documentation, basic HTML sections, initial CSS styling, and JavaScript setup are now in place. Future development can focus on improving the design and adding real content without having to restructure the project.
+Portfolio Development Journal — Day 2
+
+1. Navigation Bar Development
+
+The portfolio's navigation bar was improved from the basic version into a more structured and professional navigation system. A fixed navigation bar was implemented so that the main navigation remains visible while moving through different sections of the website.
+
+The navigation now contains links to the major sections of the portfolio:
+
+Home
+
+About
+
+Skills
+
+Projects
+
+Contact
+
+The portfolio logo was also made clickable, allowing the user to return to the Home section. CSS hover effects were added to the navigation links to provide visual feedback when the user interacts with them.
+
+A semi-transparent background and blur effect were also introduced to make the fixed navigation blend better with the overall dark theme.
