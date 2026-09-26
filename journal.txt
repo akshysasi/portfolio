@@ -176,3 +176,34 @@ GitHub and LinkedIn placeholders
 The section was designed to immediately communicate who I am and what areas I am interested in.
 
 The HTML structure was also improved by introducing classes such as hero, hero-content, hero-intro, and hero-description. This makes the structure easier to style and maintain as the project develops.
+3. CSS Styling & Foundation Improvements
+
+The CSS structure was reorganized to support the new navigation and Hero section. The stylesheet was divided into clear sections such as Reset, General Styling, Navigation, Hero, Buttons, Social Links, Projects, Skills, Contact, and Footer.
+
+The main visual improvements included:
+
+Dark overall theme
+
+Green accent color for important elements
+
+Improved typography and spacing
+
+Fixed navigation
+
+Hover effects
+
+Hero content alignment
+
+Styled project and skill cards
+
+Styled primary and secondary buttons
+
+Smooth scrolling between sections
+
+Backdrop blur for the navigation bar
+
+The JavaScript functionality was not expanded yet because the focus of this development session was the HTML structure and CSS foundation.
+
+Day 2 Summary
+
+The main goal of this session was to transform the basic portfolio skeleton into a more recognizable website. The navigation and Hero section are now properly structured and styled, providing the visual foundation for the remaining sections that will be developed next.
