@@ -261,31 +261,132 @@ section > h2 {
 /* Projects */
 /* ============================= */
 
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
+.projects-intro {
+    max-width: 700px;
 
-    gap: 20px;
+    color: #aaa;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    margin-bottom: 35px;
 }
 
-.project-card {
-    width: 350px;
 
-    padding: 25px;
+/* Project Container */
+
+.projects-container {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+
+/* Project Card */
+
+.project-card {
+    position: relative;
+
+    padding: 30px;
 
     background-color: #181818;
 
     border: 1px solid #333;
 
-    border-radius: 8px;
+    border-radius: 10px;
+
+    transition: 0.3s;
 }
 
-.project-card h3 {
+.project-card:hover {
+    border-color: #00ffcc;
+
+    transform: translateY(-6px);
+}
+
+
+/* Project Number */
+
+.project-number {
+    color: #00ffcc;
+
+    font-size: 14px;
+
+    letter-spacing: 2px;
+
     margin-bottom: 15px;
 }
 
-.project-card p {
+
+/* Project Title */
+
+.project-card h3 {
+    font-size: 24px;
+
+    margin-bottom: 15px;
+}
+
+
+/* Project Description */
+
+.project-description {
     color: #aaa;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+}
+
+
+/* Technologies */
+
+.project-tech {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 25px;
+}
+
+
+/* Technology Tags */
+
+.project-tag {
+    padding: 6px 10px;
+
+    background-color: #222;
+
+    border-radius: 5px;
+
+    color: #aaa;
+
+    font-size: 13px;
+}
+
+
+/* Project Links */
+
+.project-links {
+    margin-top: auto;
+}
+
+.project-links a {
+    color: #00ffcc;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+.project-links a:hover {
+    color: white;
 }
 
 
