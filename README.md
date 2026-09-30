@@ -168,3 +168,30 @@ Flask
 DayLog
 
 A personal journaling and productivity application designed to help users record and organize their daily experiences.
+2. Project HTML Implementation
+
+The existing basic Projects section was replaced with a more structured HTML layout.
+
+Each project is represented using an <article> element, allowing every project to function as an independent piece of content.
+
+The project structure includes classes such as:
+
+project-card
+
+project-content
+
+project-number
+
+project-description
+
+project-tech
+
+project-tag
+
+project-links
+
+Technology tags were also introduced to make the technologies used by each project easier to identify.
+
+GitHub links were added as placeholders so that the actual repository URLs can be connected later.
+
+This structure also makes it easier to add additional projects in the future while keeping the layout consistent.
