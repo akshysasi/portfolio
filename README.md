@@ -125,3 +125,46 @@ This makes the information easier to scan and provides a more organized presenta
 
 
 Today's work focused entirely on the About section. The basic placeholder content was transformed into a structured personal introduction with education, college, and interests presented in a clean card-based layout. The completed work was also committed separately to Git, establishing a clear development milestone before moving on to the Skills section.
+Portfolio Development Journal — Day 4
+
+1. Project Section Planning & Structure
+
+Today's development focused on creating the Projects section of the portfolio. The purpose of this section is to showcase practical work and give visitors a better understanding of the technologies and applications I have worked on.
+
+The Projects section was designed to be reusable so that additional projects can be added later without changing the overall structure of the website.
+
+Each project was organized with the following information:
+
+Project number
+
+Project name
+
+Project description
+
+Technologies used
+
+GitHub link
+
+Two projects were initially added:
+
+Big Data Crop Recommendation System
+
+A data-driven application that analyzes soil and environmental conditions to provide suitable crop recommendations for a selected location.
+
+Technologies included:
+
+Python
+
+Apache Spark
+
+Hadoop
+
+Hive
+
+PostgreSQL
+
+Flask
+
+DayLog
+
+A personal journaling and productivity application designed to help users record and organize their daily experiences.
