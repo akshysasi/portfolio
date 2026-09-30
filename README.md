@@ -195,3 +195,36 @@ Technology tags were also introduced to make the technologies used by each proje
 GitHub links were added as placeholders so that the actual repository URLs can be connected later.
 
 This structure also makes it easier to add additional projects in the future while keeping the layout consistent.
+3. Project Styling & Visual Improvements
+
+CSS styling was added to transform the basic project structure into visually distinct project cards.
+
+The main improvements included:
+
+Two-column project layout
+
+Dark project cards
+
+Rounded borders
+
+Improved spacing and typography
+
+Project number indicators
+
+Technology tags
+
+GitHub links
+
+Hover effects
+
+Green accent borders
+
+Subtle card movement when hovering
+
+The project cards now follow the same visual language as the About and Skills sections, creating a more consistent design throughout the portfolio.
+
+The hover effect was intentionally kept subtle. When the user moves over a project card, the card slightly rises and its border changes to the portfolio's accent color.
+
+Day 4 Summary
+
+Today's work established the foundation for showcasing real projects on the portfolio. The basic Projects section was transformed into a structured and visually consistent project showcase containing the Big Data Crop Recommendation System and DayLog. The section is now ready for the next stage, where actual GitHub links, screenshots, and more detailed project information can be added.
