@@ -651,3 +651,28 @@ footer {
 
     background-color: #252525;
 }
+
+/* CONTACT FORM FEEDBACK */
+
+.form-status {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.form-status:empty {
+    display: none;
+}
+
+.form-status.success {
+    color: #00ffcc;
+}
+
+.form-status.error {
+    color: #ff7070;
+}
+
+.contact-form button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
