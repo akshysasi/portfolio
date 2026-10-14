@@ -207,3 +207,57 @@ The JavaScript functionality was not expanded yet because the focus of this deve
 Day 2 Summary
 
 The main goal of this session was to transform the basic portfolio skeleton into a more recognizable website. The navigation and Hero section are now properly structured and styled, providing the visual foundation for the remaining sections that will be developed next.
+```html
+<form class="contact-form"
+      action="https://formspree.io/f/xgaolgjl"
+      method="POST">
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Your message..."
+            required
+        ></textarea>
+    </div>
+
+    <button type="submit" class="button">
+        Send Message →
+    </button>
+
+</form>
+```
+# Portfolio Development Journal — Day 6
+
+## 1. Contact Form Functionality
+Completed the contact section of my personal portfolio website by integrating Formspree. Configured the form to submit visitor messages and verified that the submissions were successful.
+
+## 2. JavaScript Integration
+Improved the contact form using JavaScript's asynchronous `fetch()` method. Added sending status, success and error messages, and automatic form reset after successful submission. Ensured the form could submit messages without navigating away from the website.
+
+## 3. Testing and Next Steps
+Tested the contact form and confirmed that it worked as expected. Verified the GitHub, LinkedIn, and email links. Completed the contact functionality milestone and prepared to begin responsive design improvements for mobile, tablet, and desktop screens.
